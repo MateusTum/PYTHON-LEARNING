@@ -120,6 +120,7 @@ def insert_val(e):
    e.insert(0, "Hello World!")
 
 #Define a function to open the Popup Dialogue
+
 def popupwin():
    #Create a Toplevel window
    top= Toplevel(win)
@@ -135,7 +136,7 @@ def popupwin():
    button= Button(top, text="Ok", command=lambda:close_win(top))
    button.pack(pady=5, side= TOP)
 #Create a Label
-label= Label(win, text="Hello!" +str.username"Click the Button to Open the Popup Dialogue", font= ('Helvetica 15 bold'))
+label= Label(win, text="Hello! Click the Button to Open the Popup Dialogue", font= ('Helvetica 15 bold'))
 label.pack(pady=20)
 
 #Create a Button
